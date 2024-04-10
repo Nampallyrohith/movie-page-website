@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Yantramanav&display=swap');
+
+
+.movie-card{
+    margin: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+@media screen and (max-width: 767px){
+    .movie-card{
+        width: 150px;
+        border-radius: 5px;
+    }
+}
+
+.movie-card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nav-link{
+text-decoration: none;
+}
+.movie-info{
+    margin-top: 20px;
+}
+
+h3{
+    color: black;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.rating-container{
+    color: gold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rating{
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+}

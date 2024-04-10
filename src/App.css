@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+}
+
+body{
+  box-sizing: border-box;
+}
+
+
+
+.nav-text-color-1{
+  color: #d4d4da;
+}
+.nav-text-color-2{
+  color: rgb(41, 38, 38);
+}

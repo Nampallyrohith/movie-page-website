@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Yantramanav&display=swap');
+nav{
+    height: 80px;
+    width: 100%;
+    font-family: Poppins;
+    background-color: #3d56d4;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-text-color-1{
+    color: #d4d4da;
+}
+.nav-text-color-2{
+    color: rgb(41, 38, 38);
+}
+
+.laptop-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.laptop-nav div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.laptop-nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.laptop-nav ul li{
+    margin-right: 40px;
+}
+
+.input-container input{
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0px;
+    outline: none;
+    color: rgb(36, 35, 35);
+    background-color: #d4d4da;
+    padding-left: 10px;
+    
+}
+
+.input-container button{
+    background-color: #d4d4da;
+    color: #3d56d4;
+    margin-left: 10px;
+    height: 40px;
+    width: 80px;
+    border-width: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Inter;
+
+}
+
+.mobile-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    background-color: transparent;
+    border-width: 0px;
+    color: #d4d4da;
+}
+
+.side-bar{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 250px;
+    background-color: #d4d4da;
+    
+}
+
+.side-bar-links{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.side-bar-links li{
+    margin-top: 8px;
+    width: 100%;
+    padding: 20px;
+    height: 20px;
+}
+
+.close-btn{
+    background-color: transparent;
+    border-width: 0px;
+    margin: 10px;
+}
+
+.side-bar-links li:hover{
+    background-color: #3d56d4;
+    
+}
+
+
+@media screen and (min-width: 768px){
+    .mobile-nav{
+        display: none;
+    }
+
+    .laptop-nav{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .laptop-nav{
+        display: none;
+    }
+    .mobile-nav{
+        display: flex;
+    }
+}

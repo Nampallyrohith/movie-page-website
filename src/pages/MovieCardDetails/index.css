@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Yantramanav&display=swap');
+
+.movie-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.details{
+    display: flex;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.info div{
+    display: flex;
+}
+.info div ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.info div ul li{
+    margin-right: 10px;
+}
+
+.poster{
+    width: 250px;
+}
+
+.backdrop{
+    width: 70%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .movie-details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .backdrop{
+        order: -1;
+        width: 100%;
+    }
+    .poster{
+        width: 100px;
+        height: 150px;
+    }
+    .info{
+        width: 300px;
+        line-height: 30px;
+    }
+    .movie-details div{
+        margin-top: 12px;
+    }
+
+    .info div {
+        flex-direction: column;
+    }
+    .info div ul{
+        padding: 0px;
+    }
+}
+
+h4{
+    color: #3d56d4;
+}
+
+.cast-container{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+
+.cast-card{
+    width: 120px;
+    margin: 20px;
+}
+
+.cast-card img{
+    width: 100%;
+}
+
+h5{
+    font-size: 12px;
+}
+
+@media screen and (max-width: 767px){
+    .cast-card{
+        width: 90px;
+    }
+}
